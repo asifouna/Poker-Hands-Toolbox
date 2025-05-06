@@ -1,5 +1,5 @@
-[![MATLAB](https://github.com/dbarnesmathworks/Poker-Hands-Toolbox/actions/workflows/ci.yml/badge.svg)](https://github.com/dbarnesmathworks/Poker-Hands-Toolbox/actions/workflows/ci.yml) 
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=dbarnesmathworks/Poker-Hands-Toolbox&project=PokerHands.prj)
+[![MATLAB](https://github.com/asifouna/Poker-Hands-Toolbox/actions/workflows/ci.yml/badge.svg)](https://github.com/asifouna/Poker-Hands-Toolbox/actions/workflows/ci.yml) 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=asifouna/Poker-Hands-Toolbox&project=PokerHandsToolbox.prj)
 
 # Poker Hands Toolbox
 
