@@ -15,7 +15,14 @@ on:
 
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  test:
+    name: Test MATLAB Releases
+
+    # Specify the ranges of releases to test
+    strategy:
+      matrix:
+        MATLABVersion: [R2023a, R2023b, R2024a, R2024b, R2025a]
+
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -27,6 +34,8 @@ jobs:
       # Sets up MATLAB on the GitHub Actions runner
       - name: Setup MATLAB
         uses: matlab-actions/setup-matlab@v2
+        with:
+          release: ${{ matrix.MATLABVersion }}
 
       # Run build tasks
       - name: Run default build tool task
